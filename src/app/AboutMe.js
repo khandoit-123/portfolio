@@ -23,7 +23,7 @@ const AboutMe = () =>{
                 <div className="sm:w-1/2 border m-2 bg-black opacity-75 p-5">
                     <h2>Experiences</h2>
                     <div className="flex">
-                        <Image src='/pics/ns.png' width={100} height={100} alt="school" className="object-contain"></Image>
+                        <Image src='/pics/ns.png' width={100} height={100} alt="company" className="object-contain"></Image>
                         <div className=" p-5 justify-center text-xl"> 
                             <p className="leading-relaxed">In my time in the army, I learnt many practical skills such as Adobe Photoshop and Premier Pro.
                                 I also acted as the primary point of contact between different branches liaising with others to secure coverage for events and content for 
