@@ -9,7 +9,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 1 ~ Company homepage</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' controls={true}/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' controls={true} playing={true}/>
                 </div>
                 <div className={desc}>
                     <p>This experimental company website was developed in HTML, CSS and Javascript. It was made to show the company's services and its description.
@@ -22,7 +22,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 2 ~ To-do list (With GUI)</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://youtu.be/GzzJyXFLNpg' controls={true}/>
+                    <ReactPlayer url='https://youtu.be/GzzJyXFLNpg' controls={true} playing={true}/>
                 </div>
                 <div className={desc}>
                     <p>I created this To-do list with Python's Tkinter library. It features a user-friendly GUI that can enables users to add and delete tasks easily.
@@ -33,7 +33,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 3 ~ Text based shopping list</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://youtu.be/WtihwdSF2Wk' controls={true}/>
+                    <ReactPlayer url='https://youtu.be/WtihwdSF2Wk' controls={true} playing={true}/>
                 </div>
                 <div className={desc}>
                     <p>A command-line shopping cart system developed in Python that allows users to add and remove products from their list.
