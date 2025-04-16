@@ -9,7 +9,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 1 ~ Company homepage</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' controls={true} playing={true}/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' controls={true} playing={true} muted={true}/>
                 </div>
                 <div className={desc}>
                     <p>This experimental company website was developed in HTML, CSS and Javascript. It was made to show the company's services and its description.
