@@ -9,7 +9,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 1 ~ Company homepage</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' playing={true} muted={true}/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' controls={true} muted={true}/>
                 </div>
                 <div className={desc}>
                     <p>This experimental company website was developed in HTML, CSS and Javascript. It was made to show the company's services and its description.
@@ -33,7 +33,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 3 ~ Text based shopping list</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://youtu.be/WtihwdSF2Wk' controls={true} playing={true}/>
+                    <ReactPlayer url='https://youtu.be/WtihwdSF2Wk'controls={true} muted={true}/>
                 </div>
                 <div className={desc}>
                     <p>A command-line shopping cart system developed in Python that allows users to add and remove products from their list.
