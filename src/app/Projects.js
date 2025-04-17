@@ -22,7 +22,7 @@ const Projects = () => {
             <div className = {pad}>
                 <p>Project 2 ~ To-do list (With GUI)</p>
                 <div className='flex justify-center mt-5'>
-                    <ReactPlayer url='https://youtu.be/GzzJyXFLNpg' controls={true} playing={true}/>
+                    <ReactPlayer url='https://youtu.be/GzzJyXFLNpg' controls={true} muted={true}/>
                 </div>
                 <div className={desc}>
                     <p>I created this To-do list with Python's Tkinter library. It features a user-friendly GUI that can enables users to add and delete tasks easily.
