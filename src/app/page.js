@@ -5,22 +5,15 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Social from "./social";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels, Transition } from '@headlessui/react'
-import { useState,useEffect } from "react";
+import { useState} from "react";
 
 export default function Home() {
   const tablist = 'h-10 w-36 data-[selected]:bg-gray-700 rounded-t-3xl text-white data-[hover]:underline'
   const transitionani = {enter: "transition ease-out duration-500",
                         enterFrom: "opacity-0 translate-y-4",
                         enterTo: "opacity-100 translate-y-0",}
-  const [open,setOpen] = useState(false);
   const [selectedTab, setSelectedTab] = useState(0);
-  useEffect(() => {
-    setOpen(false);
-    const timer = setTimeout(() => {
-      setOpen(true);
-    }, 0);
-    return() => clearTimeout(timer)
-  }, [selectedTab]);
+
 
   return (
     <>
@@ -34,21 +27,21 @@ export default function Home() {
           </TabList>
           <TabPanels>
             <TabPanel className='bg-gray-700 min-h-screen'>
-              <Transition show={open} {...transitionani}>
+              <Transition show={true} {...transitionani} appear={true}>
                   <div>
                     <AboutMe />
                   </div>
               </Transition>
             </TabPanel>
             <TabPanel className='bg-gray-700 h-screen'>
-              <Transition show={open} {...transitionani}>
+              <Transition show={true} {...transitionani} appear={true}>
                 <div>
                   <Projects />
                 </div>
               </Transition>
             </TabPanel>
             <TabPanel className='bg-gray-700 h-screen'>
-              <Transition show={open} {...transitionani}>
+              <Transition show={true} {...transitionani} appear={true}>
                 <div>
                   <Contact />
                 </div>
