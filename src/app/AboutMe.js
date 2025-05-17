@@ -9,9 +9,9 @@ const AboutMe = () =>{
             <div className="items-start flex flex-col sm:flex-row m-10 text-white bg-gray-700">
                 <div className="sm:w-1/2 border m-2 bg-black opacity-75 p-5">
                     <h2>Education</h2>
-                    <div className="flex">
+                    <div className="flex items-center flex-col lg:flex-row m-5">
                         <img src='/portfolio/pics/tjc.png' width={100} height={100} alt="school" className="object-contain"></img>
-                        <div className=" p-5 justify-center text-xl"> 
+                        <div className=" justify-center text-xl"> 
                             <p className="leading-relaxed">I graduated from Temasek Junior College with a subject combination of PCME, (AAA/B) achieving a total of 88.75 RP.
                                 I am also a Peer Support Leader, where I promoted student well-being. Additionally participating in two Australian Mathematics Competitions.
                                 I was a also a member of the First Aid Club, where I gained valuable skills in emergency response and first aid.</p>
@@ -20,7 +20,7 @@ const AboutMe = () =>{
                 </div>
                 <div className="sm:w-1/2 border m-2 bg-black opacity-75 p-5">
                     <h2>Experiences</h2>
-                    <div className="flex">
+                    <div className="flex items-center flex-col lg:flex-row m-5">
                         <img src='/portfolio/pics/ns.png' width={100} height={100} alt="army" className="object-contain"></img>
                         <div className=" p-5 justify-center text-xl"> 
                             <p className="leading-relaxed">In my time in the army, I learnt many practical skills such as Adobe Photoshop and Premier Pro.

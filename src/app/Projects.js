@@ -8,7 +8,7 @@ const Projects = () => {
             <h1 className="pb-10 pt-10">My projects</h1>
             <div className = {pad}>
                 <p>Project 1 ~ Company homepage</p>
-                <div className='flex justify-center mt-5'>
+                <div className='flex justify-center mt-5 '>
                     <ReactPlayer url='https://www.youtube.com/watch?v=SYVRbiW1wGo' controls={true} muted={true}/>
                 </div>
                 <div className={desc}>
